@@ -73,7 +73,7 @@ def init_user(user):  # 初始化用户
         preference_list[str(user.id)]['name'] = user.full_name
         threading.Thread(target=save_preference).start()
 
-updater = telegram.ext.Updater(token='6298615623:AAHIIBpDQZu4EaS5T2F6gWig34nvP3A7ebw')
+updater = telegram.ext.Updater(token=CONFIG['Token'])
 dispatcher = updater.dispatcher
 
 me = updater.bot.get_me()
