@@ -1,5 +1,4 @@
-TgCrypto
-pyrogram==1.4.8
+git clone https://github.com/python-telegram-bot/python-telegram-bot
 Flask==2.2.2
 gunicorn==20.1.0
 aiohttp==3.8.1
